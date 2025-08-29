@@ -32,11 +32,11 @@
             <button id="navbar-heart" class="flex gap-2 sm:gap-3 w-[123px] h-[52px] justify-center items-center bg-[#41ff6b1a] rounded-full font-bold text-[16px]">
                 0 <img src="./assets/heart.png" class="w-[25px] h-[25px] sm:w-[30px] sm:h-[30px]" alt="">
             </button>
-            <button class="flex gap-2 sm:gap-3 w-[123px] h-[52px] justify-center items-center bg-[#41ff6b1a] rounded-full font-bold text-[16px]">
+            <button id="coinBtn" class="flex gap-2 sm:gap-3 w-[123px] h-[52px] justify-center items-center bg-[#41ff6b1a] rounded-full font-bold text-[16px]">
                 100 <img src="./assets/coin.png" class="w-[25px] h-[25px] sm:w-[30px] sm:h-[30px]" alt="">
             </button>
-            <button class="flex gap-2 sm:gap-3 w-[123px] h-[52px] justify-center items-center bg-[#00a63e] text-white rounded-full font-bold text-[16px]">
-                2 Copy
+            <button id="copyCounter" class="flex gap-2 sm:gap-3 w-[123px] h-[52px] justify-center items-center bg-[#00a63e] text-white rounded-full font-bold text-[16px]">
+                0 Copy
             </button>
         </div>
     </nav>
@@ -66,15 +66,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">National Emergency Number</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">National Emergency Number</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">National Emergency</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">999</h1>
+    <h1 class="serviceNumber number text-2xl sm:text-3xl font-bold mt-4 mb-2">999</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">All</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -88,15 +88,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Police Helpline Number</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Police Helpline Number</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Police</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">999</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">999</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">Police</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center hover:bg-blue-200 gap-2">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -110,15 +110,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Fire Service Number</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Fire Service Number</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Fire Service</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">999</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">999</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">Fire</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -132,15 +132,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Ambulance Service</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Ambulance Service</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Ambulance</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">1994-999999</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">1994-999999</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">Health</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -154,15 +154,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Women & Child Helpline</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Women & Child Helpline</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Women & Child Helpline</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">109</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">109</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">Help</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -176,15 +176,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Anti-Corruption Helpline</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Anti-Corruption Helpline</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Anti-Corruption</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">106</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">106</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">Govt.</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -198,15 +198,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Electricity Helpline</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Electricity Helpline</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Electricity Outage</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">16216</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">16216</h1>
     <button class="bg-[#f2f2f2] w-16 h-9 rounded-3xl text-xs mt-2">Electricity</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -220,15 +220,15 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Brac Helpline</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Brac Helpline</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Brac</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">16445</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">16445</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">NGO</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
@@ -242,73 +242,30 @@
       </div>
       <i class="fa-regular fa-heart text-gray-500 hover:text-red-500 card-heart"></i>
     </div>
-    <h1 class="font-bold text-xl sm:text-2xl mt-4">Bangladesh Railway Helpline</h1>
+    <h1 class="serviceName font-bold text-xl sm:text-2xl mt-4">Bangladesh Railway Helpline</h1>
     <p class="text-[#5c5c5c] text-sm sm:text-base">Bangladesh Railway</p>
-    <h1 class="text-2xl sm:text-3xl font-bold mt-4 mb-2">163</h1>
+    <h1 class="serviceNumber text-2xl sm:text-3xl font-bold mt-4 mb-2">163</h1>
     <button class="bg-[#f2f2f2] w-14 h-9 rounded-3xl text-xs mt-2">Travel</button>
     <div class="flex gap-3 mt-4">
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2">
+      <button class="copyBtn flex-1 border-2 border-gray-300 rounded-lg h-10 text-[#5c5c5c] flex items-center justify-center gap-2 hover:bg-blue-200">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
-      <button class="flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2">
+      <button class="callBtn flex-1 border-2 border-gray-300 rounded-lg h-10 bg-[#00a63e] text-white flex items-center justify-center gap-2 hover:bg-gray-300">
         <i class="fa-solid fa-phone"></i> Call
       </button>
     </div>
   </div>
-    </div>
+</div>
 
 <!--right div-->
     <div class="sm:mx-4 w-full lg:w-[20%] bg-white sm:p-8 rounded-xl shadow-sm h-auto lg:h-[1140px] overflow-y-auto">
     <div class="flex justify-between items-center mb-4">
         <h1 class="text-xl font-bold"><i class="fa-solid fa-clock"></i> Call History</h1>
-        <button class="w-[123px] h-[52px] flex justify-center items-center bg-[#00a63e] text-white text-[16px] font-bold rounded-full">Clear</button>
+        <button id="clearHistory" class="w-[123px] h-[52px] flex justify-center items-center bg-[#00a63e] text-white text-[16px] font-bold rounded-full hover:bg-gray-300">Clear</button>
     </div>
 
-    <div class="space-y-4">
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">National Emergency Number</h1>
-            <p class="text-[#5c5c5c]">999</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Police Helpline Number</h1>
-            <p class="text-[#5c5c5c]">999</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Fire Service Number</h1>
-            <p class="text-[#5c5c5c]">999</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Ambulance Service</h1>
-            <p class="text-[#5c5c5c]">1994-999999</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Women & Child Helpline</h1>
-            <p class="text-[#5c5c5c]">109</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Anti-Corruption Helpline</h1>
-            <p class="text-[#5c5c5c]">106</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Electricity Helpline</h1>
-            <p class="text-[#5c5c5c]">16216</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Brac Helpline</h1>
-            <p class="text-[#5c5c5c]">16445</p>
-        </div>
-
-        <div class="w-full h-[83px] sm:h-auto bg-[#fafafa] rounded-lg p-4 flex flex-col justify-center">
-            <h1 class="text-lg font-bold">Bangladesh Railway Helpline</h1>
-            <p class="text-[#5c5c5c]">163</p>
-        </div>
+    <div id="callHistory" class="space-y-4">
+        
     </div>
     </div>
 </section>
